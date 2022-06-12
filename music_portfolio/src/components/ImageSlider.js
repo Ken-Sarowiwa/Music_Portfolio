@@ -38,6 +38,14 @@ export default function ImageSlider() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+{/* FOOTER */}
+
+
+
     </div>
+   
+
+
+    
   )
 }

@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar.js";
 import ImageSlider from './components/ImageSlider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Videos from './components/Videos';
-import { Carousel } from 'bootstrap';
+import Subscriber from './components/MyForm';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       <ImageSlider />
       <Videos />
+      <Subscriber />
     </div>
   );
 }
