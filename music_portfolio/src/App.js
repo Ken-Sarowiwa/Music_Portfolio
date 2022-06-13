@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Videos from './components/Videos';
 import Subscriber from './components/MyForm';
 import Footer from './components/Footer';
+import Audio from './components/Audio';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <ImageSlider />
       <Videos />
+      <Audio />
       <Subscriber />
 
       <Footer />

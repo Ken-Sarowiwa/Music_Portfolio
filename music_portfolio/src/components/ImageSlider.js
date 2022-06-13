@@ -12,7 +12,7 @@ export default function ImageSlider() {
     />
     <Carousel.Caption>
       <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <p>SOmetimes i ran away from this world,hoping to seek magnificent refuge. But then i remember i have a guitar</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={500}>
@@ -23,7 +23,7 @@ export default function ImageSlider() {
     />
     <Carousel.Caption>
       <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>So i sang this song to my EX-girl friend and we got back together.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -34,7 +34,7 @@ export default function ImageSlider() {
     />
     <Carousel.Caption>
       <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <p>The good thing about good music is that when it hits you, you feel no pain</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
