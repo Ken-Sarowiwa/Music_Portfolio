@@ -1,3 +1,15 @@
 img{
     height: 550px;
 }
+
+.footer{
+    background-color:rgb(219, 219, 219);
+}
+
+.icons{
+    display: flex;
+    border-spacing: 10px;
+    align-items: center;
+    justify-content: center;
+
+}

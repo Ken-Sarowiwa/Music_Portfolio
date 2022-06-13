@@ -4,6 +4,7 @@ import ImageSlider from './components/ImageSlider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Videos from './components/Videos';
 import Subscriber from './components/MyForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <ImageSlider />
       <Videos />
       <Subscriber />
+
+      <Footer />
     </div>
   );
 }

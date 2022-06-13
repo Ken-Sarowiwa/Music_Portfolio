@@ -11,13 +11,14 @@ export default function Subscriber() {
             console.log(values);
         },
         validationSchema:Yup.object({
-            email:Yup.string().max(20, "Can only type twenty characters or less").required("Sorry this field is Required").email("Invalid email"),
+            email:Yup.string().max(200, "Can only type twenty characters or less").required("Sorry this field is Required").email("Invalid email"),
         }),
     });
     
 
   return (
     <div className='container'>
+        <hr></hr>
         <strong><p>Please share your Email address we want to you stay updated with Kenafrica's latest albums and beautiful songs</p></strong>
         <form onSubmit={formik.handleSubmit}>
             <input
