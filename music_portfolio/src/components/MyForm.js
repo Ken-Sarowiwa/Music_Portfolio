@@ -3,12 +3,13 @@ import { useFormik} from 'formik';
 import Button from 'react-bootstrap/Button';
 import * as Yup from "yup";
 export default function Subscriber() {
+
     const formik = useFormik({
         initialValues:{
             email: ""
         },
         onSubmit:(values)=>{
-            console.log(values);
+            alert(JSON.stringify(values, null, ))
         },
         validationSchema:Yup.object({
             email:Yup.string().max(200, "Can only type twenty characters or less").required("Sorry this field is Required").email("Invalid email"),
